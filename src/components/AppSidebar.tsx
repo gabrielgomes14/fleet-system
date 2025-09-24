@@ -6,6 +6,9 @@ import {
   BarChart3,
   Route,
   AlertTriangle,
+  FileSpreadsheet,
+  MessageCircle,
+  User,
 } from "lucide-react";
 
 import {
@@ -25,8 +28,11 @@ const navigationItems = [
   { title: "Veículos", url: "/vehicles", icon: Car },
   { title: "Motoristas", url: "/drivers", icon: Users },
   { title: "Manutenção", url: "/maintenance", icon: Wrench },
-  { title: "Rotas", url: "/routes", icon: Route },
-  { title: "Alertas", url: "/alerts", icon: AlertTriangle },
+  { title: "Analytics", url: "/analytics", icon: Route },
+  { title: "Relatórios", url: "/reports", icon: AlertTriangle },
+  { title: "Excel Import", url: "/excel", icon: FileSpreadsheet },
+  { title: "Chatbot IA", url: "/chatbot", icon: MessageCircle },
+  { title: "Perfil", url: "/profile", icon: User },
 ];
 
 export function AppSidebar() {
